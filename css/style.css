@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Typo*/
+h1 {
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+h4 {
+  font-size: 22px;
+  font-weight: 500;
+  color: gray;
+}
+p {
+  color: gray;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+}
+hr {
+  margin-bottom: 15px;
+}
+/*Mix*/
+.container {
+  width: 75%;
+  margin: auto;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.list-inline {
+  list-style: none;
+}
+.list-inline li{
+  display: inline-block;
+}
+
+.bg-gray {
+  background-color: lightgray;
+}
+/*buttons*/
+.btn {
+ display: inline-block;
+ color: #fff ;
+ border-radius: 5px;
+ padding: 7px 12px;
+ min-width: 80px;
+ text-align: center;
+ line-height: initial;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+
+.btn-bordered{
+  border: 1px solid #fff;
+}
+.btn-green{
+  background-color: #7CBB02;
+}
+.btn-big {
+  padding: 25px;
+}
+/*header*/
+header {
+  background-color: #0C325A;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
+  background-size: 60%;
+}
+.header-top {
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo, .main-nav, .secondary-nav {
+  float: left;
+}
+
+.logo{
+  width: 15%;
+}
+.logo img{
+  vertical-align: middle;
+  margin-bottom: 12px;
+}
+
+.main-nav{
+  width: 45%;
+}
+.secondary-nav{
+  width: 40%;
+  text-align: right;
+}
+
+.main-nav li:not(:last-child),
+.secondary-nav li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.main-nav a, .secondary-nav a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/*Hero*/
+.hero{
+  height: 600px;
+  color: #fff;
+
+}
+
+.hero-text {
+  width: 45%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Main */
+section {
+  padding: 40px 0;
+}
+#interline {
+  text-align: center;
+}
+
+.col-info{
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 0 35px;
+}
+
+.col-info > img{
+  height: 150px;
+  margin-bottom: 25px;
+}
+.col-info > h3 {
+  color:  #7CBB02;
+}
+.col-info > hr {
+  width: 80px;
+  display: inline-block;
+  float: middle;
+}
+
+.x-info{
+  float: left;
+  width: calc(100% / 2);
+}
+.image {
+  width: 100%
+}
